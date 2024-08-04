@@ -1,0 +1,140 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* header */
+
+.header {
+    background: rgb(1, 45, 99);
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin-right: 152px;
+    width: 90px;
+    height: 40px;
+    margin-top: 14px;
+    margin-bottom: 17px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 29px;
+}
+
+.nav__item {}
+
+.nav__link {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    color: rgb(199, 199, 199)
+}
+
+.nav__link:hover {
+    color: rgb(255, 255, 255);
+}
+
+.lang {
+    display: flex;
+    align-items: center;
+    margin-left: 73px;
+}
+
+.lang__item {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    color: rgb(199, 199, 199);
+}
+
+#eng {
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+/* hero */
+
+.hero {
+    display: flex;
+    height: 858px;
+    background: url(../img/nike.hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero__img {
+    margin-top: 94px;
+    margin-bottom: -35px;
+}
+
+.hero__logo {
+    color: rgb(255, 255, 255);
+    font-family: 'PT Serif';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 64px;
+    text-align: left;
+    margin-top: 1px;
+    margin-bottom: -25px;
+    margin-left: 30px;
+}
+
+.hero__title {
+    color: rgb(255, 255, 255);
+    font-family: 'Playfair Display';
+    font-size: 144px;
+    font-weight: 400;
+    line-height: 192px;
+    margin-top: 1px;
+    margin-bottom: -10px;
+}
+
+.hero__subtitle {
+    color: rgb(255, 255, 255);
+    font-family: 'Playfair Display';
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 96px;
+    margin-top: 1px;
+    margin-bottom: 12px;
+}
+
+.hero__text {
+    color: rgb(255, 255, 255);
+    width: 508px;
+    height: 84px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-top: 12px;
+}
+
+.hero__button {
+    width: 254px;
+    height: 67px;
+    border-radius: 10px;
+    background: rgb(142, 50, 198);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+    margin-top: 41px;
+}
